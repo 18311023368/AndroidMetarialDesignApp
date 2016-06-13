@@ -1,0 +1,17 @@
+<resources>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <!-- Base application theme. -->
+    <!--metarial design的theme允许我们去设置status bar的颜色，如果你项目的最小支持版本为5.0，
+    那么你可以使用android:Theme.Material，设置android:statusBarColor。当然了这种情况目前来说比较少，
+    所以我们多数使用的是Theme.AppCompat，通过设置android:colorPrimaryDark.来设置status bar颜色。
+    （ps：默认情况下，android:statusBarColor的值继承自android:colorPrimaryDark）.-->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item><!--对应ActionBar的颜色。-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item><!--对应状态栏的颜色-->
+        <item name="colorAccent">@color/colorAccent</item><!--colorAccent 对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色。-->
+    </style>
+
+</resources>
