@@ -36,18 +36,18 @@
         android:text="NavigationView使用"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/coordinatorLayout"
-        android:layout_width="match_parent"
-        android:text="CoordinatorLayout使用"
-        android:layout_height="wrap_content"/>
-    <Button
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
-        android:text="AppBarLayout使用"
+        android:text="AppBarLayout+CoordinatorLayout使用"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/CollapsingToolbarLayout"
+    android:id="@+id/CollapsingToolbarLayout"
+    android:layout_width="match_parent"
+    android:text="CollapsingToolbarLayout使用"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/demo"
         android:layout_width="match_parent"
-        android:text="CollapsingToolbarLayout使用"
+        android:text="总结"
         android:layout_height="wrap_content"/>
 </LinearLayout>

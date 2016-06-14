@@ -17,6 +17,20 @@
         </activity>
         <activity android:name=".TextInputLayouActivity">
         </activity>
+        <activity android:name=".SnackBarActivity">
+        </activity>
+        <activity android:name=".FloatingActionActivity">
+        </activity>
+        <activity android:name=".TabLayoutActivity">
+        </activity>
+        <activity android:name=".NavigationViewActivity">
+        </activity>
+        <activity android:name=".AppBarLayoutActivity">
+        </activity>
+        <activity android:name=".CollapsingToolbarLayoutActivity">
+        </activity>
+        <activity android:name=".AllMaterialDesignActivity">
+        </activity>
     </application>
 
 </manifest>
