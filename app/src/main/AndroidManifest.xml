@@ -29,7 +29,10 @@
         </activity>
         <activity android:name=".CollapsingToolbarLayoutActivity">
         </activity>
-        <activity android:name=".AllMaterialDesignActivity">
+        <activity
+            android:name=".AllMaterialDesignActivity"
+            android:label="@string/title_activity_all_material_design"
+            android:theme="@style/AppTheme">
         </activity>
     </application>
 

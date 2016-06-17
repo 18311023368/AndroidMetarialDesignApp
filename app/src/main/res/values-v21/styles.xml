@@ -6,10 +6,11 @@
     所以我们多数使用的是Theme.AppCompat，通过设置android:colorPrimaryDark.来设置status bar颜色。
     （ps：默认情况下，android:statusBarColor的值继承自android:colorPrimaryDark）.-->
     <style name="AppTheme" parent="AppBaseTheme">
-         Customize your theme here.
+        Customize your theme here.
         <item name="colorPrimary">@color/colorPrimary</item>对应ActionBar的颜色。
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>对应状态栏的颜色
-        <item name="colorAccent">@color/colorAccent</item>colorAccent 对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色。
+        <item name="colorAccent">@color/colorAccent</item>colorAccent
+        对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色。
         <item name="android:navigationBarColor">@color/colorPrimary</item>底部导航栏颜色
     </style>
 
